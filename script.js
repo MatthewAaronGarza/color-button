@@ -1,4 +1,4 @@
-let colorButton = document.getElementById('color-button')
+let colorButton = document.getElementById("color-button")
 
 function changeColorButton () {
     //this var is a string that is a random color
@@ -10,3 +10,5 @@ function changeColorButton () {
 }
 
 //now that we made the function we actually need to call it when we click on the color button, in this case it is a div.
+
+colorButton.addEventListener('click', changeColorButton)
