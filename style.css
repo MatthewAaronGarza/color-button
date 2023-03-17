@@ -9,5 +9,6 @@
 #color-button {
     outline: solid black;
     padding: 10em;
+    user-select: none;
 }
 
